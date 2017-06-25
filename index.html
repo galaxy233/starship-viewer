@@ -8,79 +8,75 @@
 <body>
   <div class="container">
     <div id="starship-left" class="view">
-        <div class="starship-select">
-          <div class="dropdown">
-            <button class="dropbtn">Select starship</button>
-            <div class="dropdown-content">
-              <a href="#">CR90 Corvette</a>
-              <a href="#">V-wing</a>
-              <a href="#">Belbullab-22 Starfighter</a>
-            </div>
-          </div>
-        </div>
         <div class="starship-image">
-          <img src="img/CR90.jpg" />
+          <img id="starship-img-left" src="img/CR90.jpg" />
         </div>
         <div class="starship-data">
-          <h1>CR90 Corvette</h1>
+          <div class="starship-toggle">
+            <img id="starship-left-toggle-left" class="arrow-left" src="img/double-arrow-left.png" />
+            <h1 id="starship-name-left"></h1>
+            <img id="starship-left-toggle-right" class="arrow-right" src="img/double-arrow-right.png" />
+          </div>
           <table>
-            <tr>
-              <td>Cost</td>
-              <td>10000</td>
-            </tr>
-            <tr>
-              <td>Speed</td>
-              <td>10000</td>
-            </tr>
-            <tr>
-              <td>Cargo Size</td>
-              <td>10000</td>
-            </tr>
-            <tr>
-              <td>Passengers</td>
-              <td>10000</td>
-            </tr>
+            <tbody id="starship-data-left">
+              <tr>
+                <td>Cost</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>Speed</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>Cargo Size</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>Passengers</td>
+                <td></td>
+              </tr>
+            </tbody>
           </table>
         </div>
     </div>
 
     <div id="starship-right" class="view">
-      <div class="starship-select">
-        <div class="dropdown">
-          <button class="dropbtn">Select starship</button>
-          <div class="dropdown-content">
-            <a href="#">CR90 Corvette</a>
-            <a href="#">V-wing</a>
-            <a href="#">Belbullab-22 Starfighter</a>
-          </div>
-        </div>
-      </div>
       <div class="starship-image">
-        <img src="img/Vwing.jpg" />
+        <img id="starship-img-right" src="img/Vwing.jpg" />
       </div>
       <div class="starship-data">
-        <h1>V-Wing</h1>
+        <div class="starship-toggle">
+          <img id="starship-right-toggle-left" class="arrow-left" src="img/double-arrow-left.png" />
+          <h1 id="starship-name-right"></h1>
+          <img id="starship-right-toggle-right" class="arrow-right" src="img/double-arrow-right.png" />
+        </div>
         <table>
-          <tr>
-            <td>Cost</td>
-            <td>10000</td>
-          </tr>
-          <tr>
-            <td>Speed</td>
-            <td>10000</td>
-          </tr>
-          <tr>
-            <td>Cargo Size</td>
-            <td>10000</td>
-          </tr>
-          <tr>
-            <td>Passengers</td>
-            <td>10000</td>
-          </tr>
+          <tbody id="starship-data-right">
+            <tr>
+              <td>Cost</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>Speed</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>Cargo Size</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>Passengers</td>
+              <td></td>
+            </tr>
+          </tbody>
         </table>
       </div>
     </div>
   </div>
-  <script src="http://localhost:35729/livereload.js"></script>
+  <script
+  src="https://code.jquery.com/jquery-2.2.4.min.js"
+  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+  crossorigin="anonymous"></script>
+  <script src="script.js"></script>
 </body>
 </html>

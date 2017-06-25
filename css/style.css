@@ -63,6 +63,7 @@ body {
 }
 
 .starship-image {
+  margin-top: 50px;
   margin-left: auto;
   margin-right: 0;
   width: 90%;
@@ -70,13 +71,42 @@ body {
 }
 
 .starship-image img {
-  max-width: 95%;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  width:90%;
   max-height: 350px;
   border: 2px solid #006400;
 }
 
-h1 {
+.starship-toggle {
   text-align: center;
+  position: relative;
+  width: 90%;
+  margin: 0 auto;
+  height: 100px;
+}
+
+.starship-toggle img {
+  display: inline-block;
+  position: absolute;
+  max-height: 100%;
+}
+
+.starship-toggle h1 {
+  text-align: center;
+  line-height: 100px;
+  width: 100%;
+  height: 100px;
+}
+
+.arrow-left {
+  left: 0;
+}
+
+.arrow-right {
+  right: 0;
+  top: 0;
 }
 
 .starship-data table {
